@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DateTimePT</id>
+    <version>0.0.1</version>
+    <authors>Pawel Wujczyk</authors>
+    <owners>Pawel Wujczyk</owners>
+    <projectUrl>http://www.productivitytools.tech/datetime-tools/</projectUrl>
+    <description>It hides DateTime under interface so it can be used in the unit tests and it tears dependency on the DateTime.Now</description>
+    <tags>DateTime Now Interface</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
