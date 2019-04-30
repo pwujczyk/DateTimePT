@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0;net46</TargetFrameworks>
+    <PackageId>ProductivityTools.DateTimeTools</PackageId>
+    <Version>0.0.5</Version>
+    <Authors>Pawel Wujczyk</Authors>
+    <Company>ProductivityTools</Company>
+    <Product>ProductivityTools.DateTimeTools</Product>
+    <PackageProjectUrl>http://www.productivitytools.tech/datetime-tools/</PackageProjectUrl>
+    <Description>It hides DateTime under interface so it can be used in the unit tests and it tears dependency on the DateTime.Now</Description>
+    <PackageTags>DateTime Now Interface</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp2.0|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+</Project>
