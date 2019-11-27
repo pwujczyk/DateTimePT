@@ -18,5 +18,16 @@ namespace ProductivityTools.DateTimeTools
             return dt.AddDays(-1 * days);
         }
 
+        public static bool Today(this System.DateTime dt, DateTime now)
+        {
+            if (dt > now)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
